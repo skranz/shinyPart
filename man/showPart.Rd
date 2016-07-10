@@ -4,7 +4,7 @@
 \alias{showPart}
 \title{Show a shinyPart in an uiOutput with id container.id}
 \usage{
-showPart(pa, container.id = pa$container.id, ui.id = 1, app = getApp())
+showPart(pa, container.id = pa$.container.id, ui.id = 1, app = getApp())
 }
 \description{
 Show a shinyPart in an uiOutput with id container.id

@@ -75,7 +75,7 @@ shinyPart = function(id, fields, ui.funs, container.id=NULL, static.ui = NULL) {
 
 #' Show a shinyPart in an uiOutput with id container.id
 #' @export
-showPart =function(pa,container.id=pa$container.id, ui.id=1,app=getApp()) {
+showPart =function(pa,container.id=pa$.container.id, ui.id=1,app=getApp()) {
   ui = partUI(pa, ui.id)
 
   if (is.null(pa$.container.id))
